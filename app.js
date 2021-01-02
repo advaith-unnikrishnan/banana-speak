@@ -10,12 +10,21 @@ function getTranslateUrl(text){
     return serverUrl+"?text="+text
 }
 
+function errorHandler(error){
+    console.log("Error occured : ",error)
+    alert("Something wrong with the server, try after sometime")
+}
+
+
 function eventHandler(){
     var text= textInput.value
     var url= getTranslateUrl(text)
     fetch(url)
     .then(response => response.json())
-    .then(json => console.log(json.contents.translated))
+    .then(json => {
+        textOutput.innerText=json.contents.translated
+    })
+    .catch(errorHandler)
 }
 
 
