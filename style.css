@@ -8,43 +8,59 @@
 /* body styling */
 body{
     font-family: 'Redressed', cursive;
-    /* background-color: var(--primary-color); */
+    background-color: var(--primary-color);
 }
 
 header{
-    background-color: var(--primary-color);
-    width: 100%;
-    padding: 0;
-}
-
-.hero-txt{
-    margin:0px;
+   text-align: center;
+   font-size: 1.5rem;
 }
 
 main{
     align-items: center;
     margin:auto;
 }
-textarea{
-    margin:1rem;
 
+
+textarea{
+    margin: 1rem 4rem;
+    display: block;
+    width: 80%;
+    height: 13vh;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+#btn-translate{
+    border-radius: 1rem;
+    margin:1rem 4rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
 }
 
 footer{
     margin: auto;
-    max-width: 500px;
+    max-width: 600px;
     text-align: center;
     font-size: 1.5rem;
 }
+
+
 p{
     text-align: justify;
 }
 
 #output{
-    border: 1px solid black;
+    display: block;
+    margin: 1rem 4rem;
     width: 80%;
-    height: 10vh;
-    margin: 1rem 2rem;
-    font-size: large;
+    height: 13vh;
+    border-radius: 1rem;
     padding: 1rem;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    
 }
