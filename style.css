@@ -1,14 +1,43 @@
-textarea{
-    width: 80%;
-    height: 8vh;
-    margin: 1rem 2rem;
-    display: block;
-    padding: 1rem;
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+:root{
+    --primary-color: #8ad7c1;
 }
 
-button{
-    padding: 0.5rem;
-    margin: 1rem 2rem;
+
+/* body styling */
+body{
+    font-family: 'Redressed', cursive;
+    /* background-color: var(--primary-color); */
+}
+
+header{
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 0;
+}
+
+.hero-txt{
+    margin:0px;
+}
+
+main{
+    align-items: center;
+    margin:auto;
+}
+textarea{
+    margin:1rem;
+
+}
+
+footer{
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+p{
+    text-align: justify;
 }
 
 #output{
