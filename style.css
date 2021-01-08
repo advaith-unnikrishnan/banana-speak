@@ -32,6 +32,10 @@ textarea{
     font-size: 1.5rem;
 }
 
+textarea,button{
+    outline: none;
+    border-style: none;
+}
 #btn-translate{
     border-radius: 1rem;
     display: block;
@@ -40,6 +44,7 @@ textarea{
     font-size: 1rem;
     background-color: white;
     color: black;
+    
 }
 
 footer{
